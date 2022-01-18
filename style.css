@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to top right, red, white);
+  width: 100%;
+  height: 100vh;
+}
+
+div {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  background: white;
+}
+
+.satu {
+  background-image: radial-gradient(ellipse at bottom, white, blue);
+}
+
+.dua {
+  background-image: linear-gradient(90deg, white, blue, white);
+}
